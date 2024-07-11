@@ -247,3 +247,84 @@ a.inline-btn:hover {
   text-transform: uppercase;
   margin-top: 64px;
 }
+/* Coming soon styles */
+.coming-soon-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+.coming-soon-text {
+  width: 33.33%;
+}
+
+.coming-soon-text h3 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.coming-soon-text h2 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.coming-soon-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.coming-soon-img-container {
+  width: 33.33%;
+  text-align: center;
+}
+.inner-img {
+  border-radius: 50%;
+  width: 416px;
+  height: 416px;
+  background-color: #ff0000;
+  position: relative;
+}
+.inner-img img {
+  border: 30px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 6%;
+  top: 6%;
+  width: 364.844px;
+  height: 364.844px;
+  content: "";
+}
+.new-year-text {
+  width: 33.33%;
+}
+
+.new-year-text h3 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.new-year-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 43px;
+}
+
+.new-year-text img {
+  width: 140px;
+  height: 140px;
+}
