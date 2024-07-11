@@ -476,7 +476,9 @@ img.img-absolute {
   width: 896px;
   margin-bottom: 48px;
 }
-
+.cta-form form {
+  display: flex;
+}
 .cta-form input {
   border-radius: 50px 0 0 50px;
   background: #fff;
