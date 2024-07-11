@@ -425,15 +425,11 @@ img.img-absolute {
   margin-bottom: 48px;
 }
 .portfolio-img-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  flex-grow: 3;
 }
-.portfolio-item {
-  margin-bottom: 24px;
-}
+
 /* CTA styles */
 .cta-content {
   border-radius: 16px;
