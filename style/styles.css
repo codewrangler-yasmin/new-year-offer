@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: font-family: "Merriweather", serif;;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.7;
+  color: #070211;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: ;
+  font-family: font-family: "Merriweather", serif;;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: 0 solid;
+  color: #070211;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 700;
+  font-family: font-family: "Merriweather", serif;;
+}
+
+.section-padding {
+  padding: 120px 0;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.pt-0 {
+  padding-top: 0;
+}
+.pb-0 {
+  padding-bottom: 0;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mb-0 {
+  margin-botton: 0;
+}
+.section-title {
+  width: ;
+  height: ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.section-title .subtitle {
+  font-size: ;
+  font-weight: ;
+  line-height: ;
+  opacity: ;
+}
+.section-title .title {
+  font-size: ;
+  font-weight: ;
+  line-height: ;
+  text-align: ;
+  margin-bottom: ;
+}
+.btn-container {
+  text-align: center;
+  padding: ;
+}
+.btn {
+  font-family: ;
+  border-radius: ;
+  padding: ;
+  border: ;
+  background: ;
+  color: ;
+  font-size: ;
+  font-weight: ;
+  line-height: ;
+  cursor: pointer;
+}
+/* Header styles */
+#header-container {
+    width: 100%;
+}
+.header-bg {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/banner-image.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.header-content {
+    color: #fff;
+    width: 632px;
+    text-align: center;
+}
+.header-content {
+    color: #fff;
+    width: 632px;
+    text-align: center;
+}
+
+h3.header-subtitle {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h1.header-title {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; 
+}
