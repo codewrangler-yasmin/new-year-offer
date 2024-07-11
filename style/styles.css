@@ -246,6 +246,7 @@ a.inline-btn:hover {
   line-height: normal;
   text-transform: uppercase;
   margin-top: 64px;
+  cursor: pointer;
 }
 /* Coming soon styles */
 .coming-soon-content {
@@ -432,4 +433,71 @@ img.img-absolute {
 }
 .portfolio-item {
   margin-bottom: 24px;
+}
+/* CTA styles */
+.cta-content {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cta-img img {
+  width: 150px;
+  height: 150px;
+}
+
+.cta-img {
+  margin-bottom: 40px;
+}
+
+.cta-text h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.cta-text p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.cta-text {
+  width: 896px;
+  margin-bottom: 48px;
+}
+
+.cta-form input {
+  border-radius: 50px 0 0 50px;
+  background: #fff;
+  border: 0;
+  padding: 25px 30px;
+  width: 370px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cta-form .btn-primary {
+  margin: 0;
+  border-radius: 0 50px 50px 0;
+  padding: 20px 31px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
 }
