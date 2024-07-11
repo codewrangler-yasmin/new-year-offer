@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: font-family: "Merriweather", serif;;
+  font-family: "Merriweather", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
@@ -18,8 +18,7 @@ body {
 a {
   text-decoration: none;
   transition: 0.3s;
-  color: ;
-  font-family: font-family: "Merriweather", serif;;
+  font-family: "Merriweather", serif;
 }
 a:hover,
 a:focus {
@@ -45,7 +44,7 @@ h5,
 h6 {
   margin: 0 0 15px;
   font-weight: 700;
-  font-family: font-family: "Merriweather", serif;;
+  font-family: "Merriweather", serif;
 }
 
 .section-padding {
@@ -70,114 +69,143 @@ h6 {
 .mb-0 {
   margin-botton: 0;
 }
-.section-title {
-  width: ;
-  height: ;
+/* Header styles */
+#header-container {
+  width: 100%;
+}
+.header-bg {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/banner-image.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.header-content {
+  color: #fff;
+  width: 632px;
+  text-align: center;
+}
+.header-content {
+  color: #fff;
+  width: 632px;
+  text-align: center;
+}
+
+h3.header-subtitle {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h1.header-title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+.offer-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-}
-.section-title .subtitle {
-  font-size: ;
-  font-weight: ;
-  line-height: ;
-  opacity: ;
-}
-.section-title .title {
-  font-size: ;
-  font-weight: ;
-  line-height: ;
-  text-align: ;
-  margin-bottom: ;
-}
-.btn-container {
-  text-align: center;
-  padding: ;
-}
-.btn {
-  font-family: ;
-  border-radius: ;
-  padding: ;
-  border: ;
-  background: ;
-  color: ;
-  font-size: ;
-  font-weight: ;
-  line-height: ;
-  cursor: pointer;
-}
-/* Header styles */
-#header-container {
-    width: 100%;
-}
-.header-bg {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/banner-image.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 600px;
-    border-radius: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-.header-content {
-    color: #fff;
-    width: 632px;
-    text-align: center;
-}
-.header-content {
-    color: #fff;
-    width: 632px;
-    text-align: center;
-}
-
-h3.header-subtitle {
-    font-size: 32px;
-    font-weight: 400;
-    line-height: normal;
-}
-
-h1.header-title {
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 95px; 
-}
-.offer-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 h2.offer-big-text {
-    color: #F00;
-    font-family: "Inter", sans-serif;;
-    font-size: 88px;
-    line-height: normal;
-    margin-bottom: 48px;
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  line-height: normal;
+  margin-bottom: 48px;
 }
 
 p.offer-sub-title {
-    color: #F00;
-    font-family: "Inter", sans-serif;;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: normal;
-    margin-bottom: 16px;
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
 }
 
 h2.offer-title {
-    font-family: "Inter", sans-serif;;
-    font-size: 48px;
-    line-height: normal;
-    margin-bottom: 48px;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  line-height: normal;
+  margin-bottom: 48px;
 }
 
 .offer-img img {
-    width: 802.9px;
-    height: 500px;
+  width: 802.9px;
+  height: 500px;
+}
+/* Welcome styles */
+.welcome-bg {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+  border-radius: 16px;
+  display: flex;
+}
+.welcome-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  color: #ffffff;
+  padding: 0 125px;
+}
+.welcome-img img {
+  width: 319.83px;
+  height: 464.662px;
+}
+
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 24px;
+  width: 697px;
+}
+
+.welcome-text h2 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+}
+
+.welcome-text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+a.inline-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+a.inline-btn:hover {
+  text-decoration: underline;
 }
